@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/vaibhavsontakke837/static/css/main.f3f024c7.css",
+    "main.js": "/vaibhavsontakke837/static/js/main.249cc53f.js",
+    "index.html": "/vaibhavsontakke837/index.html",
+    "main.f3f024c7.css.map": "/vaibhavsontakke837/static/css/main.f3f024c7.css.map",
+    "main.249cc53f.js.map": "/vaibhavsontakke837/static/js/main.249cc53f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f3f024c7.css",
+    "static/js/main.249cc53f.js"
+  ]
+}
