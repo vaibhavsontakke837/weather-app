@@ -1,0 +1,51 @@
+.dashboard{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 30vw;
+    height: 75vh;
+    padding: 2rem;
+    margin: auto;
+    background-color: #6A5FEC;
+    border-radius: 1rem;
+    margin: 5rem auto;
+ 
+    background: rgb(22,214,147);
+    background: linear-gradient(0deg, rgba(22,214,147,1) 37%, rgba(5,71,247,1) 57%);
+}
+.dashboard input{
+    width: 100%;
+    padding: .5rem;
+    border-radius: .8rem;
+    outline: none;
+    border: none;
+    font-weight: bold;
+    color: gray;
+    font-size: 15px;
+    padding-left:1rem ;
+    background-color: #EDF2F8;
+    margin-top: 1rem;
+}
+
+button{
+    width: 5rem;
+    padding: .5rem;
+    align-self: flex-end;
+    margin-top: 1rem;
+    cursor: pointer;
+    border: none;
+    background-color: #16D693;
+    font-weight: bold;
+    /* height: 50px;
+    width: 50px; */
+}
+
+
+@media only screen and (max-width: 630px){
+	.dashboard{
+        width: 100vw;
+        height: 100vh;
+        margin: 0;
+        border-radius: 0;
+    }
+}

@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 40vw;
+    height: 95vh;
+    padding: 2rem;
+    margin: auto;
+    background-color: #6A5FEC;
+    border-radius: 1rem;
+    margin: 1rem auto;
+ 
+    background: rgb(22,214,147);
+    background: linear-gradient(0deg, rgba(22,214,147,1) 37%, rgba(5,71,247,1) 57%);
+}
+.container button{
+    background-color: #0547F7;
+    align-self: flex-start;
+}
+.inputData input{
+    width: 70%;
+    padding: .5rem;
+    border-radius: .8rem;
+    outline: none;
+    border: none;
+    font-weight: bold;
+    color: gray;
+    font-size: 15px;
+    padding-left:1rem ;
+    background-color: #EDF2F8;
+    margin-top: 1rem;
+}
+.inputData{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.inputData p{
+    padding-left:5rem ;
+    align-self: flex-start;
+    color: #E7E7F8;
+    font-weight:bold;
+    font-size: 20px;
+}
+.info {
+    display: flex;
+    justify-content:  space-around;
+    flex-wrap: wrap;
+
+    height: 50vh;
+    margin-top: 5rem;
+}
+
+ .temp{
+    font-size: 5rem;
+}
+.location{
+    color: #E7E7F8;
+}
+.location span{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.location_bottom{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 50%;
+    color: #f7f8fd;
+}
+.location_bottom span{
+    color: rgb(212, 211, 211);
+}
+.location div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width: 630px){
+	.container{
+        width: 100vw;
+        height: 100vh;
+        margin: 0;
+        border-radius: 0;
+    }
+}
